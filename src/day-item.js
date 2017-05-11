@@ -9,6 +9,7 @@ var DayItem = React.createClass({
       {this.props.day}
     </Text>
   },
+  // How to style in react-native
   style: function() {
       return {
         color: this.color(),
@@ -35,7 +36,7 @@ var DayItem = React.createClass({
 
 });
 
-// Style Component
+// Style Component : a way to do style
 // var styles = StyleSheet.create({
 //   day: {
 //     fontSize: 18,
