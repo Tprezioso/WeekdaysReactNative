@@ -12,7 +12,7 @@ var Weekdays = React.createClass({
         {this.days()}
       </View>
     },
-    // helper function
+    // helper function that uses moments library and day-item file
     days: function() {
       var daysItems = [];
       for (var i = 0; i < 7; i++) {
