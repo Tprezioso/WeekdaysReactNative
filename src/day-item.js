@@ -34,7 +34,6 @@ var DayItem = React.createClass({
   lineHeight: function() {
     return 70 - 4 * this.props.daysUntil;
   }
-
 });
 
 // Export code
